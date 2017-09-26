@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<!-- 指定語系 -->
+<html lang="en">
+
+<head>
+    <!-- 指定編碼類型 -->
+    <meta charset="UTF-8">
+    <!-- 使用瀏覽器最新版本（避免ie相容模式） -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+    <!-- 網頁標題 -->
+    <title>Mobile First 作品一號</title>
+    <!-- favicon -->
+    <link rel="short icon" href="images/favicon.ico">
+
+
+    <!-- 其他裝置顯示方式 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+
+  
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+     <!-- 外部連結CSS -->
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- jQuery js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!-- Boostrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+<body id="home">
+
+
+      <div id="header" class="clearfix">
+          <div class="container">
+        
+              <div id="logo" class="pull-left">
+                   <a href="#">
+                      <img src="http://lorempixel.com/55/55" alt="logo" class="img-circle">
+                   </a>
+               </div>
+               
+               <nav class="pull-right text-uppercase">
+                   <ul class="list-inline">
+                       <li class="active-menu"><a href="#">home</a></li>
+                       <li><a href="#">pages</a></li>
+                       <li><a href="#">features</a></li>
+                       <li><a href="#">portfolio</a></li>
+                       <li><a href="#">blog</a></li>
+                       <li><a href="#">shortcodes</a></li>
+                       <li class="boundary"><a href="#">shop</a></li>
+                   </ul>
+                   <ul id="important-icon" class="list-inline">
+                      <li id="cart"><a href="#"><i class="icon-basket"></i>cart<span class="list-to-buy">(2)   </span></a></>
+                      <li id="search"><a href="#"><i class="icon-search"></i>search</a></li>
+                      <li id="menu-trigger" ><a href="#"><i class="icon-menu"></i></a></li>
+                   </ul>
+               </nav>
+          </div> 
+      </div>
+
+
+      <div id="content">
+
+
+          <div class="slider">
+              <div class="container">
+
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                     <!-- Carousel indicators -->
+                     <ol class="carousel-indicators">
+                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                         <li data-target="#myCarousel" data-slide-to="1"></li>
+                         <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+         
+                     <!-- Wrapper for carousel items -->
+                     <div class="carousel-inner" role="listbox">
+         
+                         <div class="item active">
+                             <img src="http://dummyimage.com/1920x1080/123/888" alt="First Slide">
+                             <!-- <div class="carousel-caption">
+                                 <h3>First slide label</h3>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                             </div> -->
+                         </div>
+         
+                         <div class="item">
+                             <img src="http://dummyimage.com/1920x1080/ccc/fff" alt="Second Slide">
+                         </div>
+         
+                         <div class="item">
+                             <img src="http://dummyimage.com/1920x1080/0ff/555" alt="Third Slide">
+                         </div>
+         
+                     </div>
+         
+                     <!-- Carousel controls -->
+                     <a class="carousel-control left" href="#myCarousel" role="button" data-slide="prev">
+                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                     </a>
+                     <a class="carousel-control right" href="#myCarousel" role="button" data-slide="next">
+                         <span class="glyphicon glyphicon-chevron-right" aira-hidden="true"></span>
+                     </a>
+
+                  </div>         
+              </div>
+          </div>
+        
+
+           <div class="categories">
+               <div class="container">
+
+                   <div class="intro">
+                        <h2>what we sell</h2>
+                        <hr />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                   </div>
+
+                   <div class="row">
+        
+                     <div class="category col-xs-12 col-md-4">
+                        <img src="http://lorempixel.com/575/265" alt="work">
+                        <span class="work-title">outdoor<br />lighting</span>
+                     </div>
+       
+                     <div class="category col-xs-12 col-md-4">
+                        <img src="http://lorempixel.com/575/265" alt="work">
+                        <span class="work-title">wooden<br />flooring</span>
+                     </div>
+       
+                     <div class="category col-xs-12 col-md-4">
+                        <img src="http://lorempixel.com/575/265" alt="work">
+                        <span class="work-title">outdoor<br />lighting</span>
+                     </div>
+
+                   </div>
+               </div>
+           </div>
+        
+
+
+           <div class="recent-product">
+                <div class="container">
+
+                    <div class="intro">
+                        <h2>recent product</h2>
+                        <hr />
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+   
+                    
+                    <div class="products text-center">
+                        <div class="row">
+   
+                            <div class="col-xs-6 col-sm-4">
+                              <div class="picture-covered">
+                                  <img src="http://lorempixel.com/370/277" alt="product" />   
+                                  <div class="cover">
+                                  <a href="#"><i class="icon-search"></i></a>
+                                  </div>
+                              </div>
+                              <div class="info">
+                                  <h3 class="title">
+                                      <a href="#">Lorem ipsum dolor</a>
+                                      <div class="price">$39.99</div>
+                                  </h3>
+                              </div>
+                           </div> 
+
+                           <div class="col-xs-6 col-sm-4">
+                              <div class="picture-covered">
+                                  <img src="http://lorempixel.com/370/277" alt="product" />   
+                                  <div class="cover">
+                                  <a href="#"><i class="icon-search"></i></a>
+                                  </div>
+                              </div>
+                              <div class="info">
+                                  <h3 class="title">
+                                      <a href="#">Lorem ipsum dolor</a>
+                                      <div class="price">$39.99</div>
+                                  </h3>
+                              </div>
+                           </div>  
+
+                           <div class="col-xs-6 col-sm-4">
+                              <div class="picture-covered">
+                                  <img src="http://lorempixel.com/370/277" alt="product" />   
+                                  <div class="cover">
+                                  <a href="#"><i class="icon-search"></i></a>
+                                  </div>
+                              </div>
+                              <div class="info">
+                                  <h3 class="title">
+                                      <a href="#">Lorem ipsum dolor</a>
+                                      <div class="price">$39.99</div>
+                                  </h3>
+                              </div>
+                           </div>  
+
+                           <div class="col-xs-6 col-sm-4">
+                              <div class="picture-covered">
+                                  <img src="http://lorempixel.com/370/277" alt="product" />   
+                                  <div class="cover">
+                                  <a href="#"><i class="icon-search"></i></a>
+                                  </div>
+                              </div>
+                              <div class="info">
+                                  <h3 class="title">
+                                      <a href="#">Lorem ipsum dolor</a>
+                                      <div class="price">$39.99</div>
+                                  </h3>
+                              </div>
+                           </div>  
+
+                           <div class="col-xs-6 col-sm-4">
+                              <div class="picture-covered">
+                                  <img src="http://lorempixel.com/370/277" alt="product" />   
+                                  <div class="cover">
+                                  <a href="#"><i class="icon-search"></i></a>
+                                  </div>
+                              </div>
+                              <div class="info">
+                                  <h3 class="title">
+                                      <a href="#">Lorem ipsum dolor</a>
+                                      <div class="price">$39.99</div>
+                                  </h3>
+                              </div>
+                           </div>  
+
+                           <div class="col-xs-6 col-sm-4">
+                              <div class="picture-covered">
+                                  <img src="http://lorempixel.com/370/277" alt="product" />   
+                                  <div class="cover">
+                                  <a href="#"><i class="icon-search"></i></a>
+                                  </div>
+                              </div>
+                              <div class="info">
+                                  <h3 class="title">
+                                      <a href="#">Lorem ipsum dolor</a>
+                                      <div class="price">$39.99</div>
+                                  </h3>
+                              </div>
+                           </div>   
+   
+   
+                        </div>
+                    </div>
+   
+
+                </div>
+           </div>
+    
+    
+           <div class="event">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-sm-12">
+                            <h1 class="title">30% discount</h1>
+                            <h3 class="subtitle">for this summer only</h3>
+
+                            <a href="#" class="button">shop now</a>
+                        </div>
+
+                    </div>
+                </div>
+           </div>
+    
+    
+           <div class="featured text-center">
+                <div class="container">
+                    <div class="row">
+    
+                        <div class="col-xs-6 col-sm-6">
+                            <img src="http://lorempixel.com/525/453" alt="product" />
+                        </div>
+    
+                        <div class="col-xs-6 col-sm-6 feature">
+                            <div class="featured-item">
+                                <div class="title text-uppercase">featured item</div>
+                                <h3 class="name">antic single sofa</h3>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, facere!</p>
+    
+                            <div class="price">$240</div>
+                            <a href="#" class="button bordered">check now</a>
+                        </div>
+    
+                    </div>
+                </div>
+           </div>
+
+
+    
+           <div class="outlets">
+                <div class="container">
+
+                    <div class="intro">
+                         <h2>outlets</h2>
+                         <hr />
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+    
+                         <div class="row">
+    
+                             <div class="col-sm-4 outlet">
+                             <h3>Taipei</h3>
+                             <div class="contact-info">
+                                 <address>Lorem ipsum dolor sit amet.</address>
+                                 <div class="phone">
+                                     <label for="phone">phone:</label>
+                                     <a href="tel:+66-666-666-666">+66-666-666-666</a>
+                                 </div>
+                                 <div class="email">
+                                     <label for="email">emial:</label>
+                                     <a href="mailto:alison.wu23@gmail.com">alison.wu23@gmail.com</a>
+                                 </div>
+                                 <div class="map">
+                                     <a href="https://www.google.com.tw/maps" target="_blank"><i class="icon-location"></i>view map</a>
+                                 </div>
+                             </div>
+                             </div>
+    
+                             <div class="col-sm-4 outlet">
+                             <h3>Taipei</h3>
+                             <div class="contact-info">
+                                 <address>Lorem ipsum dolor sit amet.</address>
+                                 <div class="phone">
+                                     <label for="phone">phone:</label>
+                                     <a href="tel:+66-666-666-666">+66-666-666-666</a>
+                                 </div>
+                                 <div class="email">
+                                     <label for="email">emial:</label>
+                                     <a href="mailto:alison.wu23@gmail.com">alison.wu23@gmail.com</a>
+                                 </div>
+                                 <div class="map">
+                                     <a href="https://www.google.com.tw/maps" target="_blank"><i class="icon-location"></i>view map</a>
+                                 </div>
+                             </div>
+                             </div>
+    
+                             <div class="col-sm-4 outlet">
+                             <h3>Taipei</h3>
+                             <div class="contact-info">
+                                 <address>Lorem ipsum dolor sit amet.</address>
+                                 <div class="phone">
+                                     <label for="phone">phone:</label>
+                                     <a href="tel:+66-666-666-666">+66-666-666-666</a>
+                                 </div>
+                                 <div class="email">
+                                     <label for="email">emial:</label>
+                                     <a href="mailto:alison.wu23@gmail.com">alison.wu23@gmail.com</a>
+                                 </div>
+                                 <div class="map">
+                                     <a href="https://www.google.com.tw/maps" target="_blank"><i class="icon-location"></i>view map</a>
+                                 </div>
+                             </div>
+                             </div>
+                         </div>
+                    
+                </div>
+           </div>
+    
+        </div>
+
+
+      <div id="footer">
+          <div class="container">
+
+              <div class="logo">
+                  <a href="#">
+                     <img src="http://lorempixel.com/57/52" style="width: 57px; height: 52px" alt="logo">
+                  </a>
+              </div>
+    
+
+              <div class="copyright pull-left">
+                  <div class="title">&copy; 2017</div>
+                  <div class="subtitle text-uppercase">building your site with lots of fun</div>
+              </div>
+    
+              <div class="social-media pull-right">
+                  <ul class="list-inline">
+                      <li><a href="#"><i class="icon-facebook"></i></a></li>
+                      <li><a href="#"><i class="icon-twitter"></i></a></li>
+                      <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                      <li><a href="#"><i class="icon-behance"></i></a></li>
+                      <li><a href="#"><i class="icon-gplus"></i></a></li>
+                  </ul>
+              </div> 
+
+          </div>
+      </div>
+
+
+</div>
+
+<!-- <a href="#header" id="go-top" class="pull-right"><i class="icon-up-open"></i></a> -->
+
+      
+
+
+
+
+
+<!-- jQuery -->
+
+      <script>
+
+        $('#myCarousel').carousel({
+        interval: 5000, 
+        pause: false, 
+        wrap: true, 
+      });
+
+        $(document).ready(function(e){
+          $('#menu-trigger').click(function(e){
+            $('nav > ul:first-child').toggleClass('open');
+          });
+        });
+       
+
+
+
+      </script>
+
+
+</body>
+</html>

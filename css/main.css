@@ -1,0 +1,658 @@
+/************** 
+Major Setting *
+**************/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}
+
+
+
+
+
+/* #go-top */
+
+#go-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #7e7e7e;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+
+
+
+/****************
+Bootstrap Reset *
+****************/
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+
+p {
+    color: #7e7e7e;
+    font-size: 14px;
+}
+
+
+hr {
+    margin: 0 0 10px 0;
+}
+
+address {
+    margin: 0;
+}
+
+label {
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.list-inline,
+.list-inline a {
+    margin: 0;
+    line-height: 55px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #666;
+    /* be inherit */
+}
+
+
+nav ul {
+    display: inline-block;
+}
+
+
+
+
+
+/*************** 
+Reuse Settings *
+***************/
+
+
+/* header */
+
+#header {
+    position: fixed;
+    padding: 10px;
+    top: 0;
+    width: 100%;
+    background: #FFF;
+    opacity: 0.9;
+    z-index: 200;
+    min-width: 325px;
+}
+
+
+.slider {
+    margin-top: 75px;
+}
+
+
+
+
+
+/* intro */
+
+.intro {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+
+
+/* button */
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    background-color: #FFF;
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.bordered {
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+
+
+
+
+
+/* invisible */
+
+#menu-trigger {
+    display: none;
+}
+
+
+
+
+
+
+/*********************************** 
+大尺寸螢幕設定於前，media query設定於後*
+***********************************/
+
+#content>div {
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+/********** 
+.category *
+**********/
+
+.category {
+    padding-bottom: 30px;
+}
+
+.category span {
+    position: absolute;
+    right: 20%;
+    top: 30%;
+    text-align: right;
+    color: #FFF;
+    font-size: 20px;
+}
+
+
+
+
+
+/* .recent-product */
+
+.info .title a {
+    color: #222;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.info .price {
+    color: #7e7e7e;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.info h3 {
+    margin: 10px 0;
+}
+
+.picture-covered {
+    position: relative;
+}
+
+.cover {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    border: 20px solid rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.cover:hover {
+    opacity: 1;
+}
+
+.cover a {
+    position: relative;
+    top: 50%;
+    font-size: 32px;
+    color: #7e7e7e;
+}
+
+
+
+
+
+
+/* .event */
+
+.event {
+    padding: 100px 0;
+    background-image: url(http://lorempixel.com/370/277);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.event .title,
+.event .subtitle {
+    color: #FFF;
+}
+
+
+
+
+
+
+
+/* .featured */
+
+.feature {
+    padding-top: 40px;
+}
+
+.feature .title {
+    color: #db1;
+}
+
+.feature p {
+    margin: 30px 0;
+}
+
+
+
+
+
+
+
+/* .outlets */
+
+.outlets {
+    margin-bottom: 100px;
+}
+
+.outlets h3 {
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.outlets p,
+.contact-info address,
+.contact-info label,
+.contact-info a {
+    color: #7e7e7e;
+    line-height: 10px;
+    line-height: 25px;
+}
+
+.map a {
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+/* #footer */
+
+#footer {
+    background: #f5f5f5;
+    position: relative;
+    padding: 40px 0;
+}
+
+#footer .logo {
+    position: absolute;
+    border: 5px solid #f5f5f5;
+    padding: 20px;
+    background: #fff;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#footer .copyright {
+    height: 40px;
+}
+
+#footer .subtitle {
+    color: #7e7e7e;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#footer .social-media a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid #666;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+
+
+/************ 
+media query *
+************/
+
+
+/* media for menu setting & .category padding-bottom & XS & SM  */
+
+@media (max-width: 992px) {
+
+    /* menu setting */
+  
+    #menu-trigger {
+        display: inline-block;
+    }
+
+    #important-icon a {
+        font-size: 12px;
+    }
+
+    .boundary:after {
+        display: none;
+    }
+
+    .active-menu {
+        border: none;
+    }
+
+    nav>ul:first-child.open {
+        position: fixed;
+        display: block;
+        top: 75px;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow-y: auto;
+        background-color: rgba(0, 0, 0, .9);
+        z-index: 100;
+    }
+
+    nav>ul:first-child>li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav>ul:first-child a {
+        color: #FFF;
+    }
+
+    nav .active {
+        border: none;
+    }
+
+    nav>ul:first-child {
+        display: none;
+        padding: 30px;
+    }
+
+    /* Major Settings */
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .event {
+        padding: 50px 0;
+    }
+
+    .button {
+        margin-top: 20px;
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    /* XS & SM Settings */
+    #content>div {
+        margin-bottom: 60px;
+    }
+
+    /* category */
+    .category {
+        position: relative;
+        margin-bottom: 15px;
+    }
+
+    .category span.work-title {
+        position: absolute;
+        top: 35%;
+        right: 30px;
+    }
+
+    /* recent product */
+    .info .title a {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .info .price {
+        color: #7e7e7e;
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+
+    .cover {
+        border: 10px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .cover a {
+        position: relative;
+        top: 45%;
+        font-size: 20px;
+    }
+
+    /* featured */
+    .feature .title {
+        font-size: 10px;
+        color: #db1;
+    }
+
+    /* outlets */
+    .outlets {
+        margin-left: 15px;
+    }
+
+    .outlets .outlet {
+        margin-bottom: 15px;
+    }
+
+    .outlets h3 {
+        margin-bottom: 10px;
+        color: #db1;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .outlets p,
+    .contact-info address,
+    .contact-info label,
+    .contact-info a {
+        color: #7e7e7e;
+        line-height: 25px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+
+
+    /* #footer */
+    #footer .logo {
+        padding: 10px;
+    }
+
+    #footer .copyright {
+        position: relative;
+        top: 70px;
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    #footer .social-media {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: -40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* XS devices (portrait phones, less than 576px) */
+
+@media (max-width: 575px) {
+
+    .feature {
+        margin-top: -40px;
+    }
+    .featured p {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SM devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MD devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 992px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LG devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* XL devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
