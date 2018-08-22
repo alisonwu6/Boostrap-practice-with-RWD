@@ -378,6 +378,11 @@ Reuse Settings *
     line-height: 40px;
 }
 
+#footer .social-media a:hover {
+  background-color: #666666;
+  color: #ffffff;
+}
+
 
 
 
