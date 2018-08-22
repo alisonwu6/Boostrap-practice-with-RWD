@@ -250,8 +250,9 @@ Reuse Settings *
 }
 
 .cover a {
-    position: relative;
-    top: 50%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
     font-size: 32px;
     color: #7e7e7e;
 }
@@ -265,7 +266,7 @@ Reuse Settings *
 
 .event {
     padding: 100px 0;
-    background-image: url(http://lorempixel.com/370/277);
+    background-image: url(https://picsum.photos/1920/1080);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -496,8 +497,9 @@ media query *
     }
 
     .cover a {
-        position: relative;
-        top: 45%;
+        position: absolute;
+        top: 43%;
+        left: 43%;
         font-size: 20px;
     }
 
